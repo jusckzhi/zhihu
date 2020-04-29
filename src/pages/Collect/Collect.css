@@ -1,0 +1,53 @@
+.collect {
+  padding: 0;
+}
+.collect .collect-title {
+  display: flex;
+  text-align: center;
+  padding: 0.15rem;
+  color: #fff;
+  background: #00a1ec;
+  font-size: 0.2rem;
+}
+.collect .collect-title .icon-fanhui {
+  font-size: 0.25rem;
+}
+.collect .collect-title span {
+  flex: 1;
+  text-align: center;
+}
+.collect .collect-list {
+  margin-bottom: 0.1rem;
+}
+.collect .collect-list .indetail {
+  display: flex;
+  align-items: center;
+  padding: 0 0.1rem;
+  margin: 0.1rem;
+  background: #fff;
+  color: #000;
+}
+.collect .collect-list .indetail p {
+  flex: 1;
+  padding: 0.2rem 0;
+  box-sizing: border-box;
+  height: 1rem;
+  font-size: 0.16rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.collect .collect-list .indetail img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.1rem;
+}
+.no-collect {
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: red;
+}
